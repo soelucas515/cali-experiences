@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Route - Cali</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/routes.css">
+</head>
+<body>
+    <div class="site-container">
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+          <div class="header-inner">
+            <div class="brand">
+              <h1 class="brand-title">Cali Experiences</h1>
+              <p class="brand-sub">Customize and reserve an experiencie in Cali</p>
+            </div>
+    
+            <!-- Encabezado con menú de navegación -->
+            <nav class="site-nav">
+              <ul>
+                <li><a href="/index.html" class="nav-link">Home</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+<div class="route-page">
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <video class="hero-bg" autoplay muted loop playsinline>
+      <source src="assets/videos/adventure.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Experience Cali's Adventures</h1>
+      <p class="hero-subtitle">  <p class="hero-subtitle">Discover thrilling outdoor activities, from hiking and biking to paragliding and river sports.</p>
+      <a href="#cards" class="hero-btn">Start Exploring</a>
+    </div>
+  </section>
+  
+  <!-- CARDS DE LUGARES -->
+  <section id="cards" class="cards-section">
+    <h2 class="cards-title">WILD ADVENTURES</h2>
+    <div class="cards-container">
+      
+        <div class="card">
+            <img src="assets/images/parapente.webp" alt="Paragliding">
+            <h4>Paragliding</h4>
+            <p>Fly over Cali and the Valle del Cauca with breathtaking views</p>
+            <a href="#restaurant-info" 
+               class="card-btn see-more-btn"
+               data-name="Paragliding"
+               data-video="assets/videos/parapente.mp4"
+               data-description="Paragliding in Cali is one of the most thrilling experiences, offering panoramic views of the city, the Cauca Valley, and the surrounding mountains. Launch from popular sites like Roldanillo or Loma de la Viga and enjoy a safe adventure guided by certified instructors."
+               data-location="Loma de la Viga, Cali, Colombia"
+               data-hours="Best flights: 8:00 AM - 1:00 PM"
+               data-price="From $40 USD per flight">See More</a>
+               <div class="social-links">
+                <a href="https://www.instagram.com/parapentegoodfly/" target="_blank">
+                  <img src="assets/icons/instagram.svg" alt="Instagram Parapente">
+                </a>
+              </div>
+          </div>
+
+      <div class="card">
+        <img src="assets/images/bike.webp" alt="bike">
+        <h4>Cali Bike Park Tour</h4>
+        <p>Ride thrilling MTB trails inside the city with jumps and curves.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="Cali Bike Park Tour"
+        data-video="assets/videos/bike.mp4"
+        data-description="Experience adrenaline without leaving the city at Cali Bike Park. With trails designed for mountain biking at different levels, you'll find jumps, banked turns, and fast descents perfect for both beginners and experts. A fun, active way to explore Cali's adventurous side."
+        data-location="Chech Social Media Profile"
+        data-hours="8:00 AM - 6:00 PM"
+        data-price="From $20 USD per person • Includes bike and gear rental">See More</a>
+        <div class="social-links">
+            <a href="https://www.instagram.com/calibikepark/" target="_blank">
+                <img src="assets/icons/instagram.svg" alt="Instagram BikePark">
+              </a>
+        </div>
+   </div>
+
+
+        
+      </div>
+
+
+    </div>
+  </section>
+
+    <!-- SECCIÓN DINÁMICA DE RESTAURANTES -->
+    <section id="restaurant-info" class="restaurant-info hidden">
+        <h2 id="restaurant-name"></h2>
+        <video id="restaurant-video" controls></video>
+        <p id="restaurant-description"></p>
+        <ul>
+          <li><strong>Location:</strong> <span id="restaurant-location"></span></li>
+          <li><strong>Hours:</strong> <span id="restaurant-hours"></span></li>
+          <li><strong>Approximate Price:</strong> <span id="restaurant-price"></span></li>
+        </ul>
+      </section>
+    
+    </div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-inner">
+      <p>Copyright © 2025 - Cali Experiences — Diseñado para TALENTO TECH por DEVELOPERS en el Valle del Cauca.</p>
+    </div>
+  </footer>
+  
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

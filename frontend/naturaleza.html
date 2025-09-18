@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodiversity Route - Cali</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/routes.css">
+</head>
+<body>
+    <div class="site-container">
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+          <div class="header-inner">
+            <div class="brand">
+              <h1 class="brand-title">Cali Experiences</h1>
+              <p class="brand-sub">Customize and reserve an experiencie in Cali</p>
+            </div>
+    
+            <!-- Encabezado con menú de navegación -->
+            <nav class="site-nav">
+              <ul>
+                <li><a href="/index.html" class="nav-link">Home</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+<div class="route-page">
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <video class="hero-bg" autoplay muted loop playsinline>
+      <source src="assets/videos/waterfall.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Explore Cali's Biodiversity</h1>
+      <p class="hero-subtitle">  <p class="hero-subtitle">Discover unique landscapes, wildlife, and natural wonders along our biodiversity route.</p>
+      <a href="#cards" class="hero-btn">Start Exploring</a>
+    </div>
+  </section>
+  
+  <!-- CARDS DE LUGARES -->
+  <section id="cards" class="cards-section">
+    <h2 class="cards-title">NATURAL TREASURES</h2>
+    <div class="cards-container">
+      
+        <div class="card">
+            <img src="assets/images/zoo.webp" alt="Zoo">
+            <h4>ZOO</h4>
+            <p>Home to Cali's most diverse wildlife.</p>
+            <a href="#restaurant-info" 
+               class="card-btn see-more-btn"
+               data-name="Zoo"
+               data-video="assets/videos/zoo.mp4"
+               data-description="Cali Zoo is home to more than 2,500 animals representing 233 species, including primates, tropical birds, reptiles, amphibians, butterflies, and fish. Visitors can explore the biodiversity trails, aquarium, aviary, and butterfly garden, enjoying an educational and unforgettable family experience."
+               data-location="Cra 2 Oeste #14-28 Santa Teresita, Cali, Colombia"
+               data-hours="9:00 AM – 4:30 PM"
+               data-price="$13">See More</a>
+               <div class="social-links">
+                <a href="https://www.instagram.com/zoologicodecali/?hl=es" target="_blank">
+                  <img src="assets/icons/instagram.svg" alt="Instagram Zoo">
+                </a>
+                <a href="https://www.tiktok.com/@zoologicodecali" target="_blank">
+                  <img src="assets/icons/tiktok.svg" alt="TikTok Zoo">
+                </a>
+              </div>
+          </div>
+
+      <div class="card">
+        <img src="assets/images/rio.webp" alt="rio-pance">
+        <h4>Pance River</h4>
+        <p>A natural escape in Cali with crystal-clear river waters.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="Pance River"
+        data-video="assets/videos/rio.mp4"
+        data-description="Rio Pance is a favorite natural escape for locals and visitors alike. Its cool, clear waters flowing from the Farallones de Cali invite swimming, relaxing and reconnecting with nature. Along its banks you’ll enjoy lush greenery, birdwatching, walking paths, riverside restaurants serving local cuisine like sancocho and empanadas, and the friendly ambience of a day outdoor."
+        data-location="Av. Los Cerros Vía La Vorágine, Cali, Colombia"
+        data-hours="7:00 AM – 7:00 PM"
+        data-price="Free Entry for pedestrians • Parking approx. $3 USD per vehicle">See More</a>
+        <div class="social-links">
+          <a href="https://www.tiktok.com/@la.gran.fragatta" target="_blank">
+            <img src="assets/icons/tiktok.svg" alt="TikTok Rio">
+          </a>
+        </div>
+   </div>
+
+      <div class="card">
+        <img src="assets/images/cerro.webp" alt="cerro">
+        <h4>Cerro de las Tres Cruces</h4>
+        <p>A challenging climb rewarded with unforgettable panoramas of Cali.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="Cerro de las Tres Cruces"
+        data-video="assets/videos/cerro.mp4"
+        data-description="The Cerro de Las Tres Cruces is a must-visit viewpoint in Cali that rewards you with panoramic views of the city from over 1,000 meters above sea level. The ascent follows scenic trails through neighborhoods like Normandía, Granada, or Chipichape, with sections of stairs and rocky terrain. At the summit, you’ll find three iconic crosses, fresh air, local fruit vendors, and cairns with unforgettable sunrise or sunset moments."
+        data-location="Av. 9a Norte & Calle 12 Norte, Normandia, Cali, Colombia"
+        data-hours="5:00 AM – 7:00 PM"
+        data-price="Free Entry for hikers on foot">See More</a>
+        <div class="social-links">
+          <a href="https://www.tiktok.com/discover/cerro-de-las-tres-cruces-cali" target="_blank">
+            <img src="assets/icons/tiktok.svg" alt="TikTok cerro">
+          </a>
+        </div>
+        
+      </div>
+
+
+    </div>
+  </section>
+
+    <!-- SECCIÓN DINÁMICA DE RESTAURANTES -->
+    <section id="restaurant-info" class="restaurant-info hidden">
+        <h2 id="restaurant-name"></h2>
+        <video id="restaurant-video" controls></video>
+        <p id="restaurant-description"></p>
+        <ul>
+          <li><strong>Location:</strong> <span id="restaurant-location"></span></li>
+          <li><strong>Hours:</strong> <span id="restaurant-hours"></span></li>
+          <li><strong>Approximate Price:</strong> <span id="restaurant-price"></span></li>
+        </ul>
+      </section>
+    
+    </div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-inner">
+      <p>Copyright © 2025 - Cali Experiences — Diseñado para TALENTO TECH por DEVELOPERS en el Valle del Cauca.</p>
+    </div>
+  </footer>
+  
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

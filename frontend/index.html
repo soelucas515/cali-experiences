@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cali Experiences — Customize and book experiencies in Cali</title>
+  <meta name="description" content="Cali Experiences — Personaliza tu ruta en Cali: gastronómica, cultural, natural o de salsa. Arrastra tus preferencias y crea tu ruta." />
+  <link rel="icon" href="assets/images/cali-exp-logo-small.ico" type="image/png" />
+  <meta name="geo.region" content="CO" />
+
+  <!-- Tipografía -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <div class="site-container">
+
+    <!-- SITE HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-area"><img src="/assets/images/cali-exp-logo-small.png"></div>
+          <div class="brand-textos">
+            <h1 class="brand-title">Cali Experiences</h1>
+            <p class="brand-sub">Reserve Custom and Unique Experiences in Cali</p>
+          </div>
+        </div>
+
+        <!-- Encabezado con menú de navegación -->
+        <nav class="site-nav">
+          <ul>
+            <li><a href="/index.html" class="nav-link">Home</a></li>
+            <li><a href="#experiencias" class="nav-link">Experiencies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="content" id="mainContent" role="main">
+
+      <!-- Hero -->
+      <section class="hero-section">
+        <img src="assets/images/pb-la-hermita.jpg" alt="Cali ciudad" class="hero-bg" />
+        <div class="hero-content">
+          <h2 class="hero-title">Experience Cali like never before</h2>
+          <p class="hero-subtitle">
+            We customize your experience in Cali by considering your style or preferences.
+          </p>
+          <button class="hero-btn" onclick="document.getElementById('formulario-experiencia').scrollIntoView({ behavior: 'smooth' });">
+            Customize your experience
+          </button>
+        </div>
+      </section>
+
+      <!-- Experiencias -->
+      <section id="experiencias" class="cards-section">
+        <h3 class="cards-title">We are Experience Designers</h3>
+        <div class="cards-container">
+          <div class="card">
+            <i data-lucide="utensils" class="icon yellow"></i>
+            <h4>Gastronomy</h4>
+            <p>Taste pandebono, champús and Cali's unique flavors</p>
+            <a href="gastronomia.html" class="card-btn">See more</a>
+          </div>
+
+          <div class="card">
+            <i data-lucide="mountain" class="icon green"></i>
+            <h4>Biodiversity</h4>
+            <p>Breathe freedom in Río Pance, Farallones trails and green escapes</p>
+            <a href="naturaleza.html" class="card-btn">See more</a>
+          </div>
+
+          <div class="card">
+            <i data-lucide="landmark" class="icon red"></i>
+            <h4>Culture</h4>
+            <p>Explore La Tertulia, La Ermita and Cali's artistic heritage</p>
+            <a href="cultura.html" class="card-btn">See more</a>
+          </div>
+
+          <div class="card">
+            <i data-lucide="flag" class="icon green"></i>
+            <h4>Adventure</h4>
+            <p>Adrenaline-packed activities from hiking to paragliding</p>
+            <a href="aventura.html" class="card-btn">See more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección del formulario de experiencias -->
+      <section id="formulario-experiencia" class="formulario-experiencia">
+        <h2>Diseña tu experiencia turística</h2>
+        <p>Selecciona tus cuatro experiencias favoritas y personaliza tu viaje por Cali.</p>
+
+        <form onsubmit="generarExperiencia(); return false;">
+          <label for="exp1">Experience 1:</label>
+          <select id="exp1" class="exp-select" required>
+            <option value="">Choose an option</option>
+            <option value="Gastronomía">Gastronomy</option>
+            <option value="Naturaleza">Biodiversity</option>
+            <option value="Cultura">Culture</option>
+            <option value="Aventura">Adventure</option>
+          </select>
+
+          <label for="exp2">Experience 2:</label>
+          <select id="exp2" class="exp-select" required>
+            <option value="">Choose an option</option>
+            <option value="Gastronomía">Gastronomy</option>
+            <option value="Naturaleza">Biodiversity</option>
+            <option value="Cultura">Culture</option>
+            <option value="Aventura">Adventure</option>
+          </select>
+
+          <label for="exp3">Experience 3:</label>
+          <select id="exp3" class="exp-select" required>
+            <option value="">Choose an option</option>
+            <option value="Gastronomía">Gastronomy</option>
+            <option value="Naturaleza">Nature</option>
+            <option value="Cultura">Culture</option>
+            <option value="Aventura">Adventure</option>
+          </select>
+
+          <label for="exp4">Experience 4:</label>
+          <select id="exp4" class="exp-select" required>
+            <option value="">Choose an option</option>
+            <option value="Gastronomía">Gastronomy</option>
+            <option value="Naturaleza">Biodiversity</option>
+            <option value="Cultura">Culture</option>
+            <option value="Aventura">Adventure</option>
+          </select>
+
+          <label for="nombre">Name:</label>
+          <input type="text" id="nombre" placeholder="Your name" required />
+
+          <label for="contacto">Contact:</label>
+          <input type="text" id="contacto" placeholder="Email or phone" required />
+
+          <label for="fecha">Date of trip</label>
+          <input type="date" id="fecha" required />
+
+          <button type="submit">Customize Experience</button>
+        </form>
+
+        <div id="resultado"></div>
+      </section>
+
+      <!-- CTA final -->
+      <section id="contacto" class="cta-section">
+        <h3 class="cta-title">Ready for your next adventure?</h3>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Copyright © 2025 - Cali Experiences — Diseñado para TALENTO TECH por DEVELOPERS en el Valle del Cauca.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/script.js" defer></script>
+  <script>
+    // Evitar experiencias repetidas
+    document.addEventListener("DOMContentLoaded", () => {
+      const selects = document.querySelectorAll(".exp-select");
+      selects.forEach(select => {
+        select.addEventListener("change", () => {
+          const values = Array.from(selects).map(s => s.value).filter(v => v !== "");
+          selects.forEach(s => {
+            Array.from(s.options).forEach(opt => {
+              if (opt.value !== "" && values.includes(opt.value) && s.value !== opt.value) {
+                opt.disabled = true;
+              } else {
+                opt.disabled = false;
+              }
+            });
+          });
+        });
+      });
+    });
+    lucide.createIcons();
+  </script>
+</body>
+</html>

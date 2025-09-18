@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture Route - Cali</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/routes.css">
+</head>
+<body>
+    <div class="site-container">
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+          <div class="header-inner">
+            <div class="brand">
+              <h1 class="brand-title">Cali Experiences</h1>
+              <p class="brand-sub">Customize and reserve an experiencie in Cali</p>
+            </div>
+    
+            <!-- Encabezado con menú de navegación -->
+            <nav class="site-nav">
+              <ul>
+                <li><a href="/index.html" class="nav-link">Home</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+<div class="route-page">
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <video class="hero-bg" autoplay muted loop playsinline>
+      <source src="assets/videos/arte.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Uncover Art and Identity</h1>
+      <p class="hero-subtitle">Immerse yourself in art, history, and traditions through museums, landmarks, and local heritage</p>
+      <a href="#cards" class="hero-btn">Experience Art</a>
+    </div>
+  </section>
+  
+  <!-- CARDS DE LUGARES -->
+  <section id="cards" class="cards-section">
+    <h2 class="cards-title">CULTURAL GEMS</h2>
+    <div class="cards-container">
+      
+        <div class="card">
+            <img src="assets/images/tertulia.webp" alt="Tertulia">
+            <h4>La Tertulia Museum</h4>
+            <p>The city's hub for modern and contemporary art.</p>
+            <a href="#restaurant-info" 
+               class="card-btn see-more-btn"
+               data-name="La Tertulia Museum"
+               data-video="assets/videos/tertulia.mp4"
+               data-description="La Tertulia Museum is Cali's leading modern & contemporary art museum, featuring works by Colombian and Latin American artists, a cinematheque, print workshops, sculpture gardens, and rotating exhibitions that extend beyond the traditional gallery walls."
+               data-location="Avenida Colombia No. 5-105 Oeste, Cali, Colombia"
+               data-hours="Closed Mondays • Tue-Sat 10:00 AM - 7:00 PM • Sunday 2:00 PM - 6:00 PM"
+               data-price="$3">See More</a>
+               <div class="social-links">
+                <a href="https://www.instagram.com/museolatertulia/?hl=es" target="_blank">
+                  <img src="assets/icons/instagram.svg" alt="Instagram Tertulia">
+                </a>
+                <a href="https://www.tiktok.com/@museo.la.tertulia" target="_blank">
+                  <img src="assets/icons/tiktok.svg" alt="TikTok Zoo">
+                </a>
+              </div>
+          </div>
+
+      <div class="card">
+        <img src="assets/images/teatro.webp" alt="teatro">
+        <h4>La Máscara Theater</h4>
+        <p>An alternative theater showcasing feminist and innovative performances.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="La Máscara Theater"
+        data-video="assets/videos/teatro.mp4"
+        data-description="La Máscara Theater is one of the most important independent theaters in Cali, founded in 1972 by a women’s collective. Known for its innovative, feminist, and socially engaged productions, it offers an alternative cultural experience through plays, festivals, and workshops that reflect the city’s contemporary identity."
+        data-location="Cll 4 #9-30, San Antonio, Cali, Colombia"
+        data-hours="Box office and events: Tue-Sat evenings • Schedules vary by performance"
+        data-price="$20 - $30 USD">See More</a>
+        <div class="social-links">
+            <a href="https://www.instagram.com/teatrolamascara/?hl=es" target="_blank">
+                <img src="assets/icons/instagram.svg" alt="Instagram Teatro">
+              </a>
+        </div>
+   </div>
+
+      <div class="card">
+        <img src="assets/images/arqueologico.webp" alt="arqueologico">
+        <h4>Archaeological Museum La Merced</h4>
+        <p> A historic museum with pre-Hispanic artifacts and colonial art.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="Archaeological Museum La Merced"
+        data-video="assets/videos/arqueologico.mp4"
+        data-description="Located in Cali's oldest colonial building, Museo La Merced houses archaeological collections from pre-Hispanic cultures of the Valle del Cauca and religious art from the colonial era. Visitors can explore ancient artifacts, historic architecture, and exhibitions that connect the region’s past with its cultural heritage."
+        data-location="Cra 4N #6-59, History Center, Cali, Colombia"
+        data-hours="Tue-Sat 9:00 AM - 5:00 PM • Closed Sundays and Monday"
+        data-price="$1 USD">See More</a>
+        <div class="social-links">
+            <a href="https://www.instagram.com/musalamerced/?hl=es" target="_blank">
+                <img src="assets/icons/instagram.svg" alt="Instagram La Merced">
+              </a>           
+        </div>
+        
+      </div>
+
+
+    </div>
+  </section>
+
+    <!-- SECCIÓN DINÁMICA DE RESTAURANTES -->
+    <section id="restaurant-info" class="restaurant-info hidden">
+        <h2 id="restaurant-name"></h2>
+        <video id="restaurant-video" controls></video>
+        <p id="restaurant-description"></p>
+        <ul>
+          <li><strong>Location:</strong> <span id="restaurant-location"></span></li>
+          <li><strong>Hours:</strong> <span id="restaurant-hours"></span></li>
+          <li><strong>Approximate Price:</strong> <span id="restaurant-price"></span></li>
+        </ul>
+      </section>
+    
+    </div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-inner">
+      <p>Copyright © 2025 - Cali Experiences — Diseñado para TALENTO TECH por DEVELOPERS en el Valle del Cauca.</p>
+    </div>
+  </footer>
+  
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastronomic Route - Cali</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/routes.css">
+</head>
+<body>
+    <div class="site-container">
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+          <div class="header-inner">
+            <div class="brand">
+              <h1 class="brand-title">Cali Experiences</h1>
+              <p class="brand-sub">Customize and reserve an experiencie in Cali</p>
+            </div>
+    
+            <!-- Encabezado con menú de navegación -->
+            <nav class="site-nav">
+              <ul>
+                <li><a href="/index.html" class="nav-link">Home</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+<div class="route-page">
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <video class="hero-bg" autoplay muted loop playsinline>
+      <source src="assets/videos/meat.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Dive into our flavor</h1>
+      <p class="hero-subtitle">Discover the city's most authentic flavors with our partner restaurants.</p>
+      <a href="#cards" class="hero-btn">Explore Restaurants</a>
+    </div>
+  </section>
+  
+  <!-- CARDS DE LUGARES -->
+  <section id="cards" class="cards-section">
+    <h2 class="cards-title">OUR RESTAURANT PARTNERS</h2>
+    <div class="cards-container">
+      
+        <div class="card">
+            <img src="assets/images/nispero.webp" alt="Nispero">
+            <h4>Nispero</h4>
+            <p>Colombian fusion food in San Antonio.</p>
+            <a href="#restaurant-info" 
+               class="card-btn see-more-btn"
+               data-name="Nispero"
+               data-video="assets/videos/nispero.mp4"
+               data-description="Our dishes highlight the flavors of the region, distinguished by the fusion between traditional cuisine and new gastronomic techniques. In the mornings, we offer different types of high-quality and varied breakfasts, including buffet. In the afternoon, we invite you to enjoy an exquisite atmosphere with a good Colombian coffee and our afternoon menu."
+               data-location="Cra 10 #3-28 San Antonio, Cali, Colombia"
+               data-hours="7:00 AM - 10:00 PM"
+               data-price="$20 - $30 USD">See More</a>
+               <div class="social-links">
+                <a href="https://www.instagram.com/nispero.restaurante/?hl=es" target="_blank">
+                  <img src="assets/icons/instagram.svg" alt="Instagram Nispero">
+                </a>
+                <a href="https://www.tiktok.com/discover/nispero-restaurant" target="_blank">
+                  <img src="assets/icons/tiktok.svg" alt="TikTok Nispero">
+                </a>
+              </div>
+          </div>
+
+      <div class="card">
+        <img src="assets/images/fragatta.webp" alt="La-gran-fragatta">
+        <h4>La Gran Fragatta</h4>
+        <p>Seafood from Colombian Pacific.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="La Gran Fragatta"
+        data-video="assets/videos/fragatta.mp4"
+        data-description="Recognized as the finest restaurant of Pacific Colombian cuisine in Cali, we celebrate the richness of the sea and the traditions of the region. Our dishes bring to life the authentic flavors of the Pacific, enhanced by contemporary culinary techniques and the freshness of local ingredients. At lunch and dinner, we invite you to delight in an unforgettable gastronomic journey, where every plate tells the story of our coastal heritage. To complement the experience, our bar offers signature cocktails and select wines that perfectly match the vibrant spirit of the Pacific."
+        data-location="Cra 23C #8-27 Alameda, Cali, Colombia"
+        data-hours="9:00 AM – 5:00 PM"
+        data-price="$10 – $20 USD">See More</a>
+        <div class="social-links">
+          <a href="https://www.instagram.com/lagranfragattacali/?hl=es" target="_blank">
+            <img src="assets/icons/instagram.svg" alt="Instagram Fragatta">
+          </a>
+          <a href="https://www.tiktok.com/@la.gran.fragatta" target="_blank">
+            <img src="assets/icons/tiktok.svg" alt="TikTok Fragatta">
+          </a>
+        </div>
+   </div>
+
+      <div class="card">
+        <img src="assets/images/cafe.webp" alt="laatelier">
+        <h4>L'Atelier du Café</h4>
+        <p>Delicious traditional desserts accompanied by specialty colombian coffee.</p>
+        <a href="#restaurant-info" 
+        class="card-btn see-more-btn"
+        data-name="L'Atelier du Café"
+        data-video="assets/videos/cafe.mp4"
+        data-description="L’Atelier du Café is the perfect spot for travelers looking to discover the authentic coffee culture of Colombia. Located in the heart of Cali, our café combines the art of specialty coffee with a warm, welcoming atmosphere. Here, you can taste unique brews made with carefully selected beans from the Colombian mountains, while learning about the traditions and stories behind each cup. Whether you’re starting your morning, taking a break in the afternoon, or enjoying a sweet treat paired with coffee, L’Atelier du Café offers an unforgettable experience designed especially for curious and passionate visitors."
+        data-location="Cl. 14 Nte. #9n-44 Granada, Cali, Colombia"
+        data-hours="8:00 AM – 8:00 PM"
+        data-price="$15 – $20 USD">See More</a>
+        <div class="social-links">
+          <a href="https://www.instagram.com/latelierducafecali/?hl=es" target="_blank">
+            <img src="assets/icons/instagram.svg" alt="Instagram café">
+          </a>
+          <a href="https://www.tiktok.com/@latelierducafecali" target="_blank">
+            <img src="assets/icons/tiktok.svg" alt="TikTok café">
+          </a>
+        </div>
+        
+      </div>
+
+
+    </div>
+  </section>
+
+    <!-- SECCIÓN DINÁMICA DE RESTAURANTES -->
+    <section id="restaurant-info" class="restaurant-info hidden">
+        <h2 id="restaurant-name"></h2>
+        <video id="restaurant-video" controls></video>
+        <p id="restaurant-description"></p>
+        <ul>
+          <li><strong>Location:</strong> <span id="restaurant-location"></span></li>
+          <li><strong>Hours:</strong> <span id="restaurant-hours"></span></li>
+          <li><strong>Approximate Price:</strong> <span id="restaurant-price"></span></li>
+        </ul>
+      </section>
+    
+    </div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-inner">
+      <p>Copyright © 2025 - Cali Experiences — Diseñado para TALENTO TECH por DEVELOPERS en el Valle del Cauca.</p>
+    </div>
+  </footer>
+  
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,27 +1,38 @@
 # 👋 Welcome to Cali-Experiences Backend
 
-| ⚙️ VANILLA method + MERN stack backend develop (excluding React)                                                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **MERN Stack (Backend focus):** MongoDB + Express.js + Node.js                                                                                                                                                             |
-| _Backend API developed with MERN stack (excluding React for this repo). The project leverages MongoDB, Express.js, and Node.js to build a RESTful backend, supporting scalability, performance, and secure data handling._ |
-| ![](https://img.icons8.com/color/48/000000/mongodb.png) **MongoDB:** NoSQL database for storing and managing experiences.                                                                                                  |
-| ![](https://img.icons8.com/color/48/000000/express.png) **Express.js:** Framework for building RESTful APIs in Node.js.                                                                                                    |
-| ![](https://img.icons8.com/color/48/000000/nodejs.png) **Node.js:** Runtime environment powering the backend.                                                                                                              |
+---
+
+## 🎨 Frontend design with VANILLA methodology languages with
+
+| Language                                                                  | Description                  |
+| ------------------------------------------------------------------------- | ---------------------------- |
+| ![](https://img.icons8.com/color/48/html-5.png) **HTML5**                 | Structure and markup of pages |
+| ![](https://img.icons8.com/color/48/css3.png) **CSS3**                    | Styling and layout            |
+| ![](https://img.icons8.com/color/48/javascript.png) **JavaScript**        | Client-side interactivity     |
 
 ---
 
-## 🚀 Features
+## ⚙️ Backend develop technologies under MERN stack (excluding React)
 
-- RESTful API with **CRUD operations** (focus: Create for now).
-- **MongoDB Atlas** database connection.
-- Uses **Mongoose** for schema validation.
-- **CORS enabled** for frontend integration.
-- **Environment variables** support via `dotenv`.
-- Clean structure with **routes, controllers, and models**.
+| Technology                                                               | Description                                      |
+| ------------------------------------------------------------------------ | ------------------------------------------------ |
+| ![](https://img.icons8.com/color/48/mongodb.png) **MongoDB Atlas**       | NoSQL database for storing and managing experiences. |
+| ![](https://img.icons8.com/color/48/express.png) **Express.js**          | Framework for building RESTful APIs in Node.js.  |
+| ![](https://img.icons8.com/color/48/nodejs.png) **Node.js**              | Runtime environment powering the backend.        |
 
 ---
 
-## ⚙️ Programming Languages
+## ⚙️ Additional toolset for server-side programming
+
+| Tool                                                                     | Description                              |
+| ------------------------------------------------------------------------ | ---------------------------------------- |
+| ![](https://img.icons8.com/color/48/git.png) **Git**                     | Distributed version control system        |
+| ![](https://img.icons8.com/color/48/github.png) **GitHub**               | Hosting, collaboration, and repository hub |
+| ![](https://img.icons8.com/color/48/vercel.png) **Vercel**               | Cloud platform for frontend/backend deployment |
+
+---
+
+## ⚙️ Programming languages
 
 | Language                                                                  | Description        |
 | ------------------------------------------------------------------------- | ------------------ |
@@ -30,63 +41,44 @@
 
 ---
 
-## ⚙️ Markup Languages
+## ⚙️ Markup languages
 
 | Language                                                              | Description                    |
 | --------------------------------------------------------------------- | ------------------------------ |
-| ![](https://img.icons8.com/color/48/000000/html-5.png) **HTML**       | Used for testing responses     |
+| ![](https://img.icons8.com/color/48/000000/html-5.png) **HTML5**       | Used for testing responses     |
 | ![](https://img.icons8.com/color/48/000000/markdown.png) **Markdown** | Documentation (README, guides) |
 
 ---
 
-## ⚙️ Style Languages
+## ⚙️ Style languages
 
 | Language                                                     | Description                       |
 | ------------------------------------------------------------ | --------------------------------- |
-| ![](https://img.icons8.com/color/48/000000/css3.png) **CSS** | Relevant for frontend integration |
+| ![](https://img.icons8.com/color/48/000000/css3.png) **CSS3** | Relevant for layout design |
 
 ---
 
-## ⚙️ Frameworks & Libraries
+## 🚀 Main dependencies features
 
-| Library / Framework                                                    | Description                  |
-| ---------------------------------------------------------------------- | ---------------------------- |
-| ![](https://img.icons8.com/color/48/000000/express.png) **Express.js** | Core framework for APIs      |
-| ![](https://img.icons8.com/color/48/000000/mongodb.png) **Mongoose**   | MongoDB ODM for schemas      |
-| ![](https://img.icons8.com/color/48/000000/code-file.png) **Dotenv**   | Load `.env` configuration    |
-| ![](https://img.icons8.com/color/48/000000/cors.png) **CORS**          | Enable cross-origin requests |
-
----
-
-## ⚙️ Backend Toolset
-
-| Tool                                                                      | Description              |
-| ------------------------------------------------------------------------- | ------------------------ |
-| ![](https://img.icons8.com/color/48/000000/nodejs.png) **Node.js**        | Runtime powering backend |
-| ![](https://img.icons8.com/color/48/000000/express.png) **Express.js**    | RESTful API builder      |
-| ![](https://img.icons8.com/color/48/000000/mongodb.png) **MongoDB Atlas** | Cloud database           |
-| ![](https://img.icons8.com/color/48/000000/github.png) **GitHub**         | Repository hub           |
-| ![](https://img.icons8.com/color/48/000000/git.png) **Git**               | Version control          |
+| Feature                                                                  | Description                                      |
+| ------------------------------------------------------------------------ | ------------------------------------------------ |
+| ![](https://img.icons8.com/color/48/api.png) **RESTful API**             | CRUD operations (focus: Create for now).         |
+| ![](https://img.icons8.com/color/48/mongodb.png) **MongoDB Atlas**       | Database connection in the cloud.                |
+| ![](https://img.icons8.com/color/48/mongodb.png) **Mongoose**            | MongoDB ODM with schema validation and modelling.|
+| ![](https://img.icons8.com/color/48/code-file.png) **Dotenv**            | Load `.env` configuration for environment vars.  |
+| ![](https://img.icons8.com/color/48/share.png) **CORS**                  | Enable cross-origin requests.                    |
+| ![](https://img.icons8.com/color/48/flow-chart.png) **Clean structure**  | Routes, controllers, and models (clear architecture). |
 
 ---
 
-## ⚙️ Productivity & Admin Tools
+## ⚙️ Productivity & Admin tools
 
 | Tool                                                                | Description           |
 | ------------------------------------------------------------------- | --------------------- |
 | ![](https://img.icons8.com/color/48/000000/chatgpt.png) **ChatGPT** | Coding assistance     |
-| ![](https://img.icons8.com/color/48/000000/notion.png) **Notion**   | Notes & documentation |
 | ![](https://img.icons8.com/color/48/000000/trello.png) **Trello**   | Agile task management |
 
 ---
-
-## ⚙️ Cloud & Workspace Tools
-
-### Microsoft Suite
-
-| Service                                                         | Description                |
-| --------------------------------------------------------------- | -------------------------- |
-| ![](https://img.icons8.com/color/48/000000/azure.png) **Azure** | Cloud services integration |
 
 ### Google Workspace
 
@@ -100,7 +92,7 @@
 
 ---
 
-## 📂 Project Structure
+## 📂 Website structure
 
 ```bash
 cali-experiences/
@@ -130,3 +122,4 @@ cali-experiences/
     │   └── videos/
     └── public.html
 ```
+

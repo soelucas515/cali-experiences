@@ -61,14 +61,6 @@ The following sections detail the technologies, tools, and structure that bring 
 
 ---
 
-## ⚙️ Markup languages
-
-| Language                                                          | Description                    |
-| ----------------------------------------------------------------- | ------------------------------ |
-| ![](https://img.icons8.com/color/48/markdown.png) **Markdown**    | Documentation (README, guides) |
-
----
-
 ## ⚙️ Productivity & Admin tools
 
 | Tool                                                              | Description           |
@@ -87,6 +79,14 @@ The following sections detail the technologies, tools, and structure that bring 
 | ![](https://img.icons8.com/color/48/analytics.png) **Analytics**       | Track usage & performance |
 | ![](https://img.icons8.com/color/48/console.png) **Search Console**    | SEO & monitoring          |
 | ![](https://img.icons8.com/color/48/google-meet.png) **Meet**          | Virtual meetings          |
+
+---
+
+## ⚙️ Markup language
+
+| Language                                                          | Description                    |
+| ----------------------------------------------------------------- | ------------------------------ |
+| ![](https://img.icons8.com/color/48/markdown.png) **Markdown**    | Documentation (README, guides) |
 
 ---
 
@@ -120,6 +120,7 @@ cali-experiences/
     │   └── videos/
     └── public.html
 ```
+
 
 
 

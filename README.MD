@@ -12,13 +12,22 @@
 
 ---
 
-## ⚙️ Backend develop technologies under MERN stack (excluding React)
+## ⚙️ Technologies for backend development under MERN stack (excluding React)
 
 | Technology                                                               | Description                                      |
 | ------------------------------------------------------------------------ | ------------------------------------------------ |
 | ![](https://img.icons8.com/color/48/mongodb.png) **MongoDB Atlas**       | NoSQL database for storing and managing experiences. |
 | ![](https://img.icons8.com/color/48/express.png) **Express.js**          | Framework for building RESTful APIs in Node.js.  |
 | ![](https://img.icons8.com/color/48/nodejs.png) **Node.js**              | Runtime environment powering the backend.        |
+
+---
+
+## ⚙️ Programming backend languages
+
+| Language                                                                  | Description        |
+| ------------------------------------------------------------------------- | ------------------ |
+| ![](https://img.icons8.com/color/48/javascript.png) **JavaScript** | Core backend logic |
+| ![](https://img.icons8.com/color/48/json.png) **JSON**             | API data exchange  |
 
 ---
 
@@ -29,32 +38,6 @@
 | ![](https://img.icons8.com/color/48/git.png) **Git**                     | Distributed version control system        |
 | ![](https://img.icons8.com/color/48/github.png) **GitHub**               | Hosting, collaboration, and repository hub |
 | ![](https://img.icons8.com/color/48/vercel.png) **Vercel**               | Cloud platform for frontend/backend deployment |
-
----
-
-## ⚙️ Programming languages
-
-| Language                                                                  | Description        |
-| ------------------------------------------------------------------------- | ------------------ |
-| ![](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript** | Core backend logic |
-| ![](https://img.icons8.com/color/48/000000/json.png) **JSON**             | API data exchange  |
-
----
-
-## ⚙️ Markup languages
-
-| Language                                                              | Description                    |
-| --------------------------------------------------------------------- | ------------------------------ |
-| ![](https://img.icons8.com/color/48/000000/html-5.png) **HTML5**       | Used for testing responses     |
-| ![](https://img.icons8.com/color/48/000000/markdown.png) **Markdown** | Documentation (README, guides) |
-
----
-
-## ⚙️ Style languages
-
-| Language                                                     | Description                       |
-| ------------------------------------------------------------ | --------------------------------- |
-| ![](https://img.icons8.com/color/48/000000/css3.png) **CSS3** | Relevant for layout design |
 
 ---
 
@@ -71,24 +54,33 @@
 
 ---
 
+## ⚙️ Markup languages
+
+| Language                                                          | Description                    |
+| ----------------------------------------------------------------- | ------------------------------ |
+| ![](https://img.icons8.com/color/48/markdown.png) **Markdown**    | Documentation (README, guides) |
+
+---
+
 ## ⚙️ Productivity & Admin tools
 
-| Tool                                                                | Description           |
-| ------------------------------------------------------------------- | --------------------- |
-| ![](https://img.icons8.com/color/48/000000/chatgpt.png) **ChatGPT** | Coding assistance     |
-| ![](https://img.icons8.com/color/48/000000/trello.png) **Trello**   | Agile task management |
+| Tool                                                              | Description           |
+| ----------------------------------------------------------------- | --------------------- |
+| ![](https://img.icons8.com/color/48/chatgpt.png) **ChatGPT**      | Coding assistance     |
+| ![](https://img.icons8.com/color/48/trello.png) **Trello**        | Agile task management |
 
 ---
 
 ### Google Workspace
 
-| Service                                                                    | Description               |
-| -------------------------------------------------------------------------- | ------------------------- |
-| ![](https://img.icons8.com/color/48/000000/google-drive.png) **Drive**     | Storage & collaboration   |
-| ![](https://img.icons8.com/color/48/000000/gmail.png) **Gmail**            | Project communication     |
-| ![](https://img.icons8.com/color/48/000000/analytics.png) **Analytics**    | Track usage & performance |
-| ![](https://img.icons8.com/color/48/000000/console.png) **Search Console** | SEO & monitoring          |
-| ![](https://img.icons8.com/color/48/000000/google-meet.png) **Meet**       | Virtual meetings          |
+| Service                                                                | Description               |
+| ---------------------------------------------------------------------- | ------------------------- |
+| ![](https://img.icons8.com/color/48/google-drive.png) **Drive**        | Storage & collaboration   |
+| ![](https://img.icons8.com/color/48/gmail.png) **Gmail**               | Project communication     |
+| ![](https://img.icons8.com/color/48/analytics.png) **Analytics**       | Track usage & performance |
+| ![](https://img.icons8.com/color/48/console.png) **Search Console**    | SEO & monitoring          |
+| ![](https://img.icons8.com/color/48/google-meet.png) **Meet**          | Virtual meetings          |
+
 
 ---
 
@@ -122,4 +114,5 @@ cali-experiences/
     │   └── videos/
     └── public.html
 ```
+
 

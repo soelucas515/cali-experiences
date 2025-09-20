@@ -9,7 +9,7 @@ The following sections detail the technologies, tools, and structure that bring 
 
 ---
 
-## 🎨 Frontend design with VANILLA methodology languages with
+## ⚙️ Frontend design with VANILLA methodology languages with
 
 | Language                                                                  | Description                  |
 | ------------------------------------------------------------------------- | ---------------------------- |
@@ -48,7 +48,7 @@ The following sections detail the technologies, tools, and structure that bring 
 
 ---
 
-## 🚀 Main dependencies features
+## ⚙️ Main dependencies features
 
 | Feature                                                                  | Description                                      |
 | ------------------------------------------------------------------------ | ------------------------------------------------ |
@@ -70,7 +70,7 @@ The following sections detail the technologies, tools, and structure that bring 
 
 ---
 
-### Google Workspace
+## ⚙️ Google Workspace
 
 | Service                                                                | Description               |
 | ---------------------------------------------------------------------- | ------------------------- |
@@ -90,7 +90,7 @@ The following sections detail the technologies, tools, and structure that bring 
 
 ---
 
-## 📂 Website structure
+### 📂 Website structure
 
 ```bash
 cali-experiences/
@@ -120,6 +120,7 @@ cali-experiences/
     │   └── videos/
     └── public.html
 ```
+
 
 
 

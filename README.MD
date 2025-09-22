@@ -1,6 +1,6 @@
 # 👋 Welcome to Cali-Experiences website repository
 
-This repository contains the **Final Project "Cali Experiences"** from the *Full Stack Web Development Bootcamp* at **Talento Tech Valle**, presented on **September 16, 2025** by the team: *Erika Zuñiga, Marcela Bravo, Pedro Barco and Soe Lucas*.  
+This repository contains the **Final Project "Cali Experiences"** from the *Full Stack Web Development Bootcamp* at **Talento Tech Valle**, presented on **September 16, 2025** by the team: *Erika Zuñiga, Marcela Bravo, Marco Gonzalez, Pedro Barco and Soe Lucas*.  
 
 The project showcases a **vanilla-based frontend** (HTML, CSS, JavaScript) and a **backend built with core MERN stack technologies** (excluding React). It also integrates **Git & GitHub** for version control and collaboration, and is deployed on **Vercel**.  
 
@@ -120,6 +120,7 @@ cali-experiences/
     │   └── videos/
     └── public.html
 ```
+
 
 
 
